@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RingTracer</string>
+    <string name="settings_title">Please change the settings bellow to better match your needs.</string>
+    <string name="exclude_contacts_text">Search only callers not in my contacts list.</string>
+    <string name="exclude_contacts_title">Exclude contacts</string>
+    <string name="wifi_only_text">Search only when I\'m connected to a WiFi network to avoid data charges.</string>
+    <string name="wifi_only_title">WiFi only</string>
+    <string name="show_on_top_text">By default the caller results pop-up is displayed at the bottom of the screen. Enable this option to move it at the top of the screen.</string>
+    <string name="show_on_top_title">Show on top</string>
+    <string name="disable_text">Enable this to disable caller search. You can re-enable this at any time in the future.</string>
+    <string name="disable_title">Disable caller search</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+</resources>

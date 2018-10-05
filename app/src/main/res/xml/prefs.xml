@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings_title">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="disable_search"
+            android:summary="@string/disable_text"
+            android:title="@string/disable_title" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="exclude_contacts"
+            android:summary="@string/exclude_contacts_text"
+            android:title="@string/exclude_contacts_title" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="wifi_only"
+            android:summary="@string/wifi_only_text"
+            android:title="@string/wifi_only_title" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="show_on_top"
+            android:summary="@string/show_on_top_text"
+            android:title="@string/show_on_top_title" />
+    </PreferenceCategory>
+</PreferenceScreen>
